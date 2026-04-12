@@ -1,0 +1,28 @@
+# Byte-compiled / otimizados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+
+# Dados (Datasets grandes não devem ir para o git)
+data/
+*.csv
+*.xlsx
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Variáveis de ambiente (Senhas/Keys)
+.envKANMTS/artifacts/
+__pycache__/
+*.pth
+*.onnx
+tuning_results/
+tuning_results/
+KANMTS/imgs/
+imgs/
