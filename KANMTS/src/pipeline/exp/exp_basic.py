@@ -2,7 +2,7 @@ import os
 
 import torch
 
-from models import SOFTS, KANMTS
+from models import KANMTS
 
 
 
@@ -12,7 +12,6 @@ class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'SOFTS': SOFTS,
             'KANMTS': KANMTS,
 
         }

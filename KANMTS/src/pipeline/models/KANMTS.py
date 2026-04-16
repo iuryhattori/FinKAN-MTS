@@ -97,8 +97,8 @@ class Mixer2dTriUKAN(nn.Module):
             KANLinear(time_steps, time_steps, grid_size=grid_size),
         )
 
-        self.TokenMixingKAN = TokenMixingKAN(d_core, channels + 4, hidden_dim)
-        self.ChannelMixingKAN = ChannelMixingKAN(d_core, channels + 4, hidden_dim)
+        self.TokenMixingKAN = TokenMixingKAN(d_core, channels + 5, hidden_dim)
+        self.ChannelMixingKAN = ChannelMixingKAN(d_core, channels + 5, hidden_dim)
 
        
 

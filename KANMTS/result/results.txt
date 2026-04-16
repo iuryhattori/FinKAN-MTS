@@ -1,0 +1,69 @@
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 57.5267s
+Epoch: 2, Steps: 507, Train Loss: 0.1091429, Vali Loss: 0.0790077, Test Loss: 0.0805640, Time Cost: 56.8466s
+Epoch: 3, Steps: 507, Train Loss: 0.0999361, Vali Loss: 0.0749974, Test Loss: 0.0791042, Time Cost: 56.7898s
+Epoch: 4, Steps: 507, Train Loss: 0.0881416, Vali Loss: 0.0753796, Test Loss: 0.0808640, Time Cost: 56.8392s
+Epoch: 5, Steps: 507, Train Loss: 0.0922656, Vali Loss: 0.0832951, Test Loss: 0.0882434, Time Cost: 57.4127s
+Epoch: 6, Steps: 507, Train Loss: 0.0908244, Vali Loss: 0.0695395, Test Loss: 0.0745622, Time Cost: 58.3047s
+Epoch: 7, Steps: 507, Train Loss: 0.0824167, Vali Loss: 0.0700025, Test Loss: 0.0728900, Time Cost: 57.0867s
+Epoch: 8, Steps: 507, Train Loss: 0.0723911, Vali Loss: 0.0697795, Test Loss: 0.0744990, Time Cost: 56.8132s
+Epoch: 9, Steps: 507, Train Loss: 0.0805585, Vali Loss: 0.0687022, Test Loss: 0.0713614, Time Cost: 56.9123s
+Epoch: 10, Steps: 507, Train Loss: 0.0853499, Vali Loss: 0.0698671, Test Loss: 0.0756686, Time Cost: 56.8168s
+Epoch: 11, Steps: 507, Train Loss: 0.0773827, Vali Loss: 0.0682779, Test Loss: 0.0759810, Time Cost: 56.8207s
+Epoch: 12, Steps: 507, Train Loss: 0.0839221, Vali Loss: 0.0723919, Test Loss: 0.0773765, Time Cost: 56.8580s
+Epoch: 13, Steps: 507, Train Loss: 0.0598675, Vali Loss: 0.0679080, Test Loss: 0.0744479, Time Cost: 56.8303s
+Epoch: 14, Steps: 507, Train Loss: 0.0835168, Vali Loss: 0.0685249, Test Loss: 0.0717727, Time Cost: 56.8905s
+Epoch: 15, Steps: 507, Train Loss: 0.0630156, Vali Loss: 0.0662896, Test Loss: 0.0739228, Time Cost: 56.8493s
+Epoch: 16, Steps: 507, Train Loss: 0.0741622, Vali Loss: 0.0681210, Test Loss: 0.0761143, Time Cost: 56.8384s
+Epoch: 17, Steps: 507, Train Loss: 0.0751834, Vali Loss: 0.0741441, Test Loss: 0.0790343, Time Cost: 56.8604s
+Epoch: 18, Steps: 507, Train Loss: 0.0698506, Vali Loss: 0.0702998, Test Loss: 0.0778802, Time Cost: 56.8209s
+Total Training Time: 1026.68 seconds
+Total Training Memory Usage: 673580.00 MB
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 60.7236s
+Epoch: 2, Steps: 507, Train Loss: 0.1091429, Vali Loss: 0.0790077, Test Loss: 0.0805640, Time Cost: 59.5609s
+Epoch: 3, Steps: 507, Train Loss: 0.0999361, Vali Loss: 0.0749974, Test Loss: 0.0791042, Time Cost: 59.6061s
+Epoch: 4, Steps: 507, Train Loss: 0.0881416, Vali Loss: 0.0753796, Test Loss: 0.0808640, Time Cost: 59.6525s
+Epoch: 5, Steps: 507, Train Loss: 0.0922656, Vali Loss: 0.0832951, Test Loss: 0.0882434, Time Cost: 59.6234s
+Epoch: 6, Steps: 507, Train Loss: 0.0908244, Vali Loss: 0.0695395, Test Loss: 0.0745622, Time Cost: 59.6375s
+Epoch: 7, Steps: 507, Train Loss: 0.0824167, Vali Loss: 0.0700025, Test Loss: 0.0728900, Time Cost: 59.5957s
+Epoch: 8, Steps: 507, Train Loss: 0.0723911, Vali Loss: 0.0697795, Test Loss: 0.0744990, Time Cost: 59.5052s
+Epoch: 9, Steps: 507, Train Loss: 0.0805585, Vali Loss: 0.0687022, Test Loss: 0.0713614, Time Cost: 59.5572s
+Epoch: 10, Steps: 507, Train Loss: 0.0853499, Vali Loss: 0.0698671, Test Loss: 0.0756686, Time Cost: 59.5686s
+Epoch: 11, Steps: 507, Train Loss: 0.0773827, Vali Loss: 0.0682779, Test Loss: 0.0759810, Time Cost: 59.5559s
+Epoch: 12, Steps: 507, Train Loss: 0.0839221, Vali Loss: 0.0723919, Test Loss: 0.0773765, Time Cost: 59.6000s
+Epoch: 13, Steps: 507, Train Loss: 0.0598675, Vali Loss: 0.0679080, Test Loss: 0.0744479, Time Cost: 59.6030s
+Epoch: 14, Steps: 507, Train Loss: 0.0835168, Vali Loss: 0.0685249, Test Loss: 0.0717727, Time Cost: 59.6026s
+Epoch: 15, Steps: 507, Train Loss: 0.0630156, Vali Loss: 0.0662896, Test Loss: 0.0739228, Time Cost: 59.5837s
+Epoch: 16, Steps: 507, Train Loss: 0.0741622, Vali Loss: 0.0681210, Test Loss: 0.0761143, Time Cost: 59.5893s
+Epoch: 17, Steps: 507, Train Loss: 0.0751834, Vali Loss: 0.0741441, Test Loss: 0.0790343, Time Cost: 59.6285s
+Epoch: 18, Steps: 507, Train Loss: 0.0698506, Vali Loss: 0.0702998, Test Loss: 0.0778802, Time Cost: 59.6203s
+Total Training Time: 1074.40 seconds
+Total Training Memory Usage: 673376.00 MB
+Epoch: 1, Steps: 507, Train Loss: 0.1247093, Vali Loss: 0.0810980, Test Loss: 0.0821478, Time Cost: 59.2333s
+Total Training Time: 59.30 seconds
+Total Training Memory Usage: 727068.00 MB
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 59.0167s
+Total Training Time: 59.08 seconds
+Total Training Memory Usage: 727060.00 MB
+Epoch: 1, Steps: 507, Train Loss: 0.1250884, Vali Loss: 0.0809918, Test Loss: 0.0823466, Time Cost: 58.9493s
+Total Training Time: 59.01 seconds
+Total Training Memory Usage: 726188.00 MB
+Epoch: 1, Steps: 507, Train Loss: 0.1247093, Vali Loss: 0.0810980, Test Loss: 0.0821478, Time Cost: 58.9155s
+Total Training Time: 58.98 seconds
+Total Training Memory Usage: 725868.00 MB
+Total Inference Time: 2.64S
+Total Memory Usage: -53.85 MB
+MSE: 0.08214776562379951
+MAE: 0.08515142294507635
+Total test time: 2.86 seconds
+test Memory used: -37.98 MB
+Test the total number of parameters.: 18610372
+Epoch: 1, Steps: 507, Train Loss: 0.1247093, Vali Loss: 0.0810980, Test Loss: 0.0821478, Time Cost: 58.8572s
+Total Training Time: 58.92 seconds
+Total Training Memory Usage: 727336.00 MB
+Total Inference Time: 2.67S
+Total Memory Usage: -53.87 MB
+MSE: 0.08214776562379951
+MAE: 0.08515142294507635
+Total test time: 2.84 seconds
+test Memory used: -38.41 MB
+Test the total number of parameters.: 18610372
