@@ -47,12 +47,9 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                 batch_x = batch_x.float().to(self.device)
                 batch_y = batch_y.float()
 
-                if 'PEMS' in self.args.data or 'Solar' in self.args.data:
-                    batch_x_mark = None
-                    batch_y_mark = None
-                else:
-                    batch_x_mark = batch_x_mark.float().to(self.device)
-                    batch_y_mark = batch_y_mark.float().to(self.device)
+                
+                batch_x_mark = batch_x_mark.float().to(self.device)
+                batch_y_mark = batch_y_mark.float().to(self.device)
 
                 # decoder input
                 dec_inp = torch.zeros_like(batch_y[:, -self.args.pred_len:, :]).float()
@@ -135,12 +132,8 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                 batch_x = batch_x.float().to(self.device)
 
                 batch_y = batch_y.float().to(self.device)
-                if 'PEMS' in self.args.data or 'Solar' in self.args.data:
-                    batch_x_mark = None
-                    batch_y_mark = None
-                else:
-                    batch_x_mark = batch_x_mark.float().to(self.device)
-                    batch_y_mark = batch_y_mark.float().to(self.device)
+                batch_x_mark = batch_x_mark.float().to(self.device)
+                batch_y_mark = batch_y_mark.float().to(self.device)
 
                 # decoder input
                 dec_inp = torch.zeros_like(batch_y[:, -self.args.pred_len:, :]).float()
@@ -276,12 +269,9 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                 batch_x = batch_x.float().to(self.device)
                 batch_y = batch_y.float().to(self.device)
 
-                if 'PEMS' in self.args.data or 'Solar' in self.args.data:
-                    batch_x_mark = None
-                    batch_y_mark = None
-                else:
-                    batch_x_mark = batch_x_mark.float().to(self.device)
-                    batch_y_mark = batch_y_mark.float().to(self.device)
+
+                batch_x_mark = batch_x_mark.float().to(self.device)
+                batch_y_mark = batch_y_mark.float().to(self.device)
 
                 # decoder input
                 dec_inp = torch.zeros_like(batch_y[:, -self.args.pred_len:, :]).float()
@@ -301,11 +291,20 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                         outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)
 
                 f_dim = -1 if self.args.features == 'MS' else 0
-                outputs = outputs[:, -self.args.pred_len:, f_dim:]
-                batch_y = batch_y[:, -self.args.pred_len:, f_dim:].to(self.device)
+                outputs = outputs[:, -self.args.pred_len:, :]
+                batch_y = batch_y[:, -self.args.pred_len:, :].to(self.device)
 
-                predictions.append(outputs.cpu().numpy())  # Save predictions
-                ground_truth.append(batch_y.cpu().numpy())  # Save ground truth
+                mse.update(mse_loss(outputs, batch_y).item(), batch_x.size(0))
+                mae.update(mae_loss(outputs, batch_y).item(), batch_x.size(0))
+
+                outputs_np = outputs.detach().cpu().numpy()
+                batch_y_np = batch_y.detach().cpu().numpy()
+
+                outputs_np = test_data.inverse_transform(outputs_np)
+                batch_y_np = test_data.inverse_transform(batch_y_np)
+
+                predictions.append(outputs_np)  # Save predictions
+                ground_truth.append(batch_y_np)  # Save ground truth
 
                 # Record the end time of the current batch inference
                 batch_end_time = time.time()
@@ -317,9 +316,7 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                 total_memory_used += (batch_end_memory - batch_start_memory)
                 # Save ground truth
 
-                mse.update(mse_loss(outputs, batch_y).item(), batch_x.size(0))
-                mae.update(mae_loss(outputs, batch_y).item(), batch_x.size(0))
-
+                
                 # After processing all batches, print total inference time and memory usage, and save to file
         print(f"Total Inference Time: {total_inference_time:.2f}S")
         print(f"Total Memory Usage: {total_memory_used:.2f} MB")
@@ -340,11 +337,6 @@ class Exp_Long_Term_Forecast(Exp_Basic):
         predictions = np.concatenate(predictions, axis=0)
         ground_truth = np.concatenate(ground_truth, axis=0)
 
-        predicted_values = predictions[1, :, 0]
-        true_values = ground_truth[1, :, 0]
-
-      
-
         # Save results to file
         with open('./result/results.txt', 'a', encoding='utf-8', errors='replace') as file:
             file.write(f'MSE: {mse}\n')
@@ -360,4 +352,4 @@ class Exp_Long_Term_Forecast(Exp_Basic):
         with open('./result/results.txt', 'a') as f:
             f.write(f'Test the total number of parameters.: {total_params}\n')
 
-        return
+        return mse, mae, predictions, ground_truth

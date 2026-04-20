@@ -67,3 +67,285 @@ MAE: 0.08515142294507635
 Total test time: 2.84 seconds
 test Memory used: -38.41 MB
 Test the total number of parameters.: 18610372
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 57.9953s
+Total Training Time: 58.06 seconds
+Total Training Memory Usage: 726680.00 MB
+Total Inference Time: 2.63S
+Total Memory Usage: 4.27 MB
+MSE: 0.08223145873281605
+MAE: 0.08491825551393352
+Total test time: 2.81 seconds
+test Memory used: 14.85 MB
+Test the total number of parameters.: 18610372
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 57.6857s
+Epoch: 2, Steps: 507, Train Loss: 0.1091429, Vali Loss: 0.0790077, Test Loss: 0.0805640, Time Cost: 57.4065s
+Epoch: 3, Steps: 507, Train Loss: 0.0999361, Vali Loss: 0.0749974, Test Loss: 0.0791042, Time Cost: 57.0975s
+Epoch: 4, Steps: 507, Train Loss: 0.0881416, Vali Loss: 0.0753796, Test Loss: 0.0808640, Time Cost: 57.8717s
+Epoch: 5, Steps: 507, Train Loss: 0.0922656, Vali Loss: 0.0832951, Test Loss: 0.0882434, Time Cost: 57.9202s
+Epoch: 6, Steps: 507, Train Loss: 0.0908244, Vali Loss: 0.0695395, Test Loss: 0.0745622, Time Cost: 57.6959s
+Epoch: 7, Steps: 507, Train Loss: 0.0824167, Vali Loss: 0.0700025, Test Loss: 0.0728900, Time Cost: 57.2703s
+Epoch: 8, Steps: 507, Train Loss: 0.0723911, Vali Loss: 0.0697795, Test Loss: 0.0744990, Time Cost: 57.2453s
+Epoch: 9, Steps: 507, Train Loss: 0.0805585, Vali Loss: 0.0687022, Test Loss: 0.0713614, Time Cost: 57.1335s
+Epoch: 10, Steps: 507, Train Loss: 0.0853499, Vali Loss: 0.0698671, Test Loss: 0.0756686, Time Cost: 57.0490s
+Epoch: 11, Steps: 507, Train Loss: 0.0773827, Vali Loss: 0.0682779, Test Loss: 0.0759810, Time Cost: 57.3327s
+Epoch: 12, Steps: 507, Train Loss: 0.0839221, Vali Loss: 0.0723919, Test Loss: 0.0773765, Time Cost: 57.5098s
+Epoch: 13, Steps: 507, Train Loss: 0.0598675, Vali Loss: 0.0679080, Test Loss: 0.0744479, Time Cost: 57.1968s
+Epoch: 14, Steps: 507, Train Loss: 0.0835168, Vali Loss: 0.0685249, Test Loss: 0.0717727, Time Cost: 57.6664s
+Epoch: 15, Steps: 507, Train Loss: 0.0630156, Vali Loss: 0.0662896, Test Loss: 0.0739228, Time Cost: 57.8289s
+Epoch: 16, Steps: 507, Train Loss: 0.0741622, Vali Loss: 0.0681210, Test Loss: 0.0761143, Time Cost: 57.3983s
+Epoch: 17, Steps: 507, Train Loss: 0.0751834, Vali Loss: 0.0741441, Test Loss: 0.0790343, Time Cost: 57.1725s
+Epoch: 18, Steps: 507, Train Loss: 0.0698506, Vali Loss: 0.0702998, Test Loss: 0.0778802, Time Cost: 57.1004s
+Total Training Time: 1034.16 seconds
+Total Training Memory Usage: 674316.00 MB
+Total Inference Time: 2.59S
+Total Memory Usage: 4.27 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 2.79 seconds
+test Memory used: 16.14 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.90S
+Total Memory Usage: 498.41 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.02 seconds
+test Memory used: 513.33 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.85S
+Total Memory Usage: 498.16 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 2.99 seconds
+test Memory used: 513.18 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.84S
+Total Memory Usage: 498.15 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.00 seconds
+test Memory used: 513.62 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.83S
+Total Memory Usage: 497.84 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 2.99 seconds
+test Memory used: 512.95 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.85S
+Total Memory Usage: 498.64 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 2.98 seconds
+test Memory used: 513.64 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.91S
+Total Memory Usage: 498.63 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.07 seconds
+test Memory used: 513.56 MB
+Test the total number of parameters.: 18610372
+Epoch: 1, Steps: 504, Train Loss: 0.1212057, Vali Loss: 0.0584185, Test Loss: 0.0703901, Time Cost: 57.6480s
+Epoch: 2, Steps: 504, Train Loss: 0.0969547, Vali Loss: 0.0547971, Test Loss: 0.0666135, Time Cost: 58.5006s
+Epoch: 3, Steps: 504, Train Loss: 0.1096833, Vali Loss: 0.0537633, Test Loss: 0.0658209, Time Cost: 59.2891s
+Epoch: 4, Steps: 504, Train Loss: 0.1170325, Vali Loss: 0.0544374, Test Loss: 0.0666263, Time Cost: 59.5785s
+Epoch: 5, Steps: 504, Train Loss: 0.0957935, Vali Loss: 0.0551508, Test Loss: 0.0673414, Time Cost: 59.0649s
+Epoch: 6, Steps: 504, Train Loss: 0.0727786, Vali Loss: 0.0549873, Test Loss: 0.0669176, Time Cost: 58.9108s
+Total Training Time: 353.22 seconds
+Total Training Memory Usage: 683532.00 MB
+Total Inference Time: 2.75S
+Total Memory Usage: 49.71 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.00 seconds
+test Memory used: 61.70 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.90S
+Total Memory Usage: 568.00 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.07 seconds
+test Memory used: 542.59 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 3.18S
+Total Memory Usage: 555.05 MB
+MSE: 0.16277516520125818
+MAE: 0.18959447087263098
+Total test time: 3.34 seconds
+test Memory used: 533.32 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.90S
+Total Memory Usage: 554.02 MB
+MSE: 0.1627751675134507
+MAE: 0.1895944699858526
+Total test time: 3.05 seconds
+test Memory used: 533.67 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.98S
+Total Memory Usage: 554.63 MB
+MSE: 0.1627751675134507
+MAE: 0.1895944699858526
+Total test time: 3.15 seconds
+test Memory used: 533.08 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.88S
+Total Memory Usage: 554.13 MB
+MSE: 0.16277516520125818
+MAE: 0.18959447087263098
+Total test time: 3.03 seconds
+test Memory used: 533.27 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.93S
+Total Memory Usage: 554.65 MB
+MSE: 0.1627751659369558
+MAE: 0.18959447061645057
+Total test time: 3.08 seconds
+test Memory used: 533.06 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.87S
+Total Memory Usage: 507.40 MB
+MSE: 0.1627751675134507
+MAE: 0.1895944699858526
+Total test time: 3.05 seconds
+test Memory used: 510.09 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 3.02S
+Total Memory Usage: 554.39 MB
+MSE: 0.1627751675134507
+MAE: 0.1895944699858526
+Total test time: 3.18 seconds
+test Memory used: 532.41 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.89S
+Total Memory Usage: 547.23 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.05 seconds
+test Memory used: 533.38 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.98S
+Total Memory Usage: 554.89 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.14 seconds
+test Memory used: 539.54 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.85S
+Total Memory Usage: 553.87 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.01 seconds
+test Memory used: 538.60 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.87S
+Total Memory Usage: 567.46 MB
+MSE: 0.06582085972502812
+MAE: 0.12031818125606346
+Total test time: 3.03 seconds
+test Memory used: 540.98 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.89S
+Total Memory Usage: 554.92 MB
+MSE: 0.1627751675134507
+MAE: 0.1895944699858526
+Total test time: 3.03 seconds
+test Memory used: 533.18 MB
+Test the total number of parameters.: 18704672
+Total Inference Time: 2.94S
+Total Memory Usage: 498.60 MB
+MSE: 0.10538699805614217
+MAE: 0.10137518009238893
+Total test time: 3.07 seconds
+test Memory used: 502.43 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.90S
+Total Memory Usage: 497.70 MB
+MSE: 0.08223145873281605
+MAE: 0.08491825551393352
+Total test time: 3.08 seconds
+test Memory used: 501.41 MB
+Test the total number of parameters.: 18610372
+Epoch: 1, Steps: 507, Train Loss: 0.1252402, Vali Loss: 0.0809444, Test Loss: 0.0822315, Time Cost: 57.7800s
+Epoch: 2, Steps: 507, Train Loss: 0.1091429, Vali Loss: 0.0790077, Test Loss: 0.0805640, Time Cost: 56.9001s
+Epoch: 3, Steps: 507, Train Loss: 0.0999361, Vali Loss: 0.0749974, Test Loss: 0.0791042, Time Cost: 56.8647s
+Epoch: 4, Steps: 507, Train Loss: 0.0881416, Vali Loss: 0.0753796, Test Loss: 0.0808640, Time Cost: 56.8814s
+Epoch: 5, Steps: 507, Train Loss: 0.0922656, Vali Loss: 0.0832951, Test Loss: 0.0882434, Time Cost: 56.8386s
+Epoch: 6, Steps: 507, Train Loss: 0.0908244, Vali Loss: 0.0695395, Test Loss: 0.0745622, Time Cost: 56.8249s
+Epoch: 7, Steps: 507, Train Loss: 0.0824167, Vali Loss: 0.0700025, Test Loss: 0.0728900, Time Cost: 56.8534s
+Epoch: 8, Steps: 507, Train Loss: 0.0723911, Vali Loss: 0.0697795, Test Loss: 0.0744990, Time Cost: 56.8261s
+Epoch: 9, Steps: 507, Train Loss: 0.0805585, Vali Loss: 0.0687022, Test Loss: 0.0713614, Time Cost: 56.8179s
+Epoch: 10, Steps: 507, Train Loss: 0.0853499, Vali Loss: 0.0698671, Test Loss: 0.0756686, Time Cost: 56.8146s
+Epoch: 11, Steps: 507, Train Loss: 0.0773827, Vali Loss: 0.0682779, Test Loss: 0.0759810, Time Cost: 56.7692s
+Epoch: 12, Steps: 507, Train Loss: 0.0839221, Vali Loss: 0.0723919, Test Loss: 0.0773765, Time Cost: 56.7629s
+Epoch: 13, Steps: 507, Train Loss: 0.0598675, Vali Loss: 0.0679080, Test Loss: 0.0744479, Time Cost: 56.7655s
+Epoch: 14, Steps: 507, Train Loss: 0.0835168, Vali Loss: 0.0685249, Test Loss: 0.0717727, Time Cost: 56.8045s
+Epoch: 15, Steps: 507, Train Loss: 0.0630156, Vali Loss: 0.0662896, Test Loss: 0.0739228, Time Cost: 56.7756s
+Epoch: 16, Steps: 507, Train Loss: 0.0741622, Vali Loss: 0.0681210, Test Loss: 0.0761143, Time Cost: 56.7974s
+Epoch: 17, Steps: 507, Train Loss: 0.0751834, Vali Loss: 0.0741441, Test Loss: 0.0790343, Time Cost: 56.8015s
+Epoch: 18, Steps: 507, Train Loss: 0.0698506, Vali Loss: 0.0702998, Test Loss: 0.0778802, Time Cost: 56.8435s
+Total Training Time: 1024.29 seconds
+Total Training Memory Usage: 674024.00 MB
+Total Inference Time: 2.60S
+Total Memory Usage: 3.72 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 2.78 seconds
+test Memory used: 15.96 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.94S
+Total Memory Usage: 497.80 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.09 seconds
+test Memory used: 511.66 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.91S
+Total Memory Usage: 498.12 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.04 seconds
+test Memory used: 511.99 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.88S
+Total Memory Usage: 498.50 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.01 seconds
+test Memory used: 512.34 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 3.01S
+Total Memory Usage: 497.89 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.17 seconds
+test Memory used: 511.76 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 3.23S
+Total Memory Usage: 497.84 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.43 seconds
+test Memory used: 511.96 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.95S
+Total Memory Usage: 497.66 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.11 seconds
+test Memory used: 511.55 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.87S
+Total Memory Usage: 498.42 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.00 seconds
+test Memory used: 512.29 MB
+Test the total number of parameters.: 18610372
+Total Inference Time: 2.88S
+Total Memory Usage: 498.24 MB
+MSE: 0.07392284521005354
+MAE: 0.08039785263591927
+Total test time: 3.01 seconds
+test Memory used: 512.14 MB
+Test the total number of parameters.: 18610372
